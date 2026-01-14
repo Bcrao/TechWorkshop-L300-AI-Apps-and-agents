@@ -7,9 +7,9 @@ on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
 
 env:
-  ACR_REGISTRY: mqllsiyymndsscosureg. azurecr.io
-  IMAGE_NAME: school-management-app
-  DOCKERFILE_PATH:  ./src
+  ACR_REGISTRY: mqllsiyymndsscosureg.azurecr.io
+  IMAGE_NAME: chat-app
+  DOCKERFILE_PATH: ./src
 
 jobs:
   build-and-push:
